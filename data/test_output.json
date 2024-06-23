@@ -1,0 +1,43 @@
+{
+    "spaces": [
+        {
+            "id": "space1",
+            "location": [
+                10,
+                20
+            ],
+            "size": [
+                5,
+                5
+            ],
+            "space_type": "r-space",
+            "description": "Main storage",
+            "tags": [
+                "storage"
+            ]
+        }
+    ],
+    "paths": [
+        {
+            "id": "path1",
+            "start": "space1",
+            "end": "space1",
+            "waypoints": [
+                {
+                    "location": [
+                        12,
+                        22
+                    ]
+                }
+            ],
+            "path_type": "linear",
+            "description": "Test path",
+            "constraints": [
+                "secure"
+            ],
+            "capacity": 100,
+            "current_load": 0,
+            "load_history": []
+        }
+    ]
+}
