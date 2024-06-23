@@ -3,8 +3,5 @@ dotenv
 json
 openai
 os
-space
-src.space
-src.space_system
 sys
 unittest
